@@ -1,0 +1,16 @@
+name: nuclei3d-pipeline
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - tifffile
+  - pywavelets
+  - tqdm
+  - scikit-image
+  - imagecodecs
+  - matplotlib
+  - pip
+  - pip:
+      - cellpose

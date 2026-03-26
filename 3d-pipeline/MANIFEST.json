@@ -1,0 +1,142 @@
+{
+  "package_root": "D:\\mayunfan\\neuronClawProj\\delivery_nuclei3d_pipeline",
+  "file_count": 27,
+  "total_size_bytes": 2727597816,
+  "files": [
+    {
+      "path": "artifacts/step12_meta.json",
+      "size_bytes": 3767,
+      "sha256": "06110d71406a37cb118837970ffc91422b3716ca2227acde7494fafb340b7ded"
+    },
+    {
+      "path": "artifacts/step1_params.json",
+      "size_bytes": 535,
+      "sha256": "e06fc2fbf8363739f09af7e1da1009467d13d66e6d12cc08467c8602f81b3256"
+    },
+    {
+      "path": "artifacts/step1_sparse_sim.tif",
+      "size_bytes": 421561008,
+      "sha256": "ad74c4a9d04126ffab83b90075f9c5cd35e3ea5f4417ecd8d13b4bea9adfe185"
+    },
+    {
+      "path": "artifacts/step2_local_normalization.tif",
+      "size_bytes": 421561008,
+      "sha256": "608660a313ec2bef87f77c192219f166d450581c67b084c45f9fb108b59cbbc2"
+    },
+    {
+      "path": "artifacts/step3_mask_tileoverlap02.tif",
+      "size_bytes": 421561008,
+      "sha256": "24f0e3229aaa2c84bb6134d406d7701a363e5f9919f1e67198f6c6f9b47025fd"
+    },
+    {
+      "path": "artifacts/step3_meta.json",
+      "size_bytes": 1005,
+      "sha256": "0cfbbc4441fac27f03800c136a68181e010ede7047bf51d91b892e7d3cfabb8e"
+    },
+    {
+      "path": "artifacts/step3_params.json",
+      "size_bytes": 331,
+      "sha256": "f91c01d17d6d550ec325dbccd588c5848d65544f3ae1f5716f2c158eab7f3744"
+    },
+    {
+      "path": "artifacts/step3_run.log",
+      "size_bytes": 2766,
+      "sha256": "fe67a4d9b6bd6d2639e9b3cc14430325ed009677b54dbe92a3cc005c8243bcb9"
+    },
+    {
+      "path": "configs/pipeline_fish7_recommended.json",
+      "size_bytes": 1381,
+      "sha256": "eff663427723f7bc80b18f683cbbdbfd1f3e8dcb6f5dd0a4c15bb9ceb33da61b"
+    },
+    {
+      "path": "configs/sparse_sim_fish7.json",
+      "size_bytes": 346,
+      "sha256": "efd0f93bf16b2a2bcb0135d227afac7fdfd4f30c19f2875abb1ab4b6b6e3551b"
+    },
+    {
+      "path": "environment.pipeline.yml",
+      "size_bytes": 219,
+      "sha256": "6d47281c41b994c831cd4aee16c0328fde540145c85b664b3e36abfdf5ef3f94"
+    },
+    {
+      "path": "MANIFEST.json",
+      "size_bytes": 4528,
+      "sha256": "bc114726e375f58805f0b071440cd1fd87066671c9157903734074c8c19f4a3f"
+    },
+    {
+      "path": "model/finetuned_cellpose_sam_model",
+      "size_bytes": 609386318,
+      "sha256": "3bb270f1f1ecd26b50daa46a01f9e49b6fd1b36beb9d999c963ec9f365aaa4b4"
+    },
+    {
+      "path": "model/model_config.json",
+      "size_bytes": 3472,
+      "sha256": "38114cb2cfb4e9694cb01d3c5a4dacd064a50d512fb243dec92ee47afffedcbe"
+    },
+    {
+      "path": "README_HUMAN.md",
+      "size_bytes": 4567,
+      "sha256": "318152342f343dd033a858aef8aad4655cd261d0a8b58a78678dde037cde783a"
+    },
+    {
+      "path": "README_LLM.md",
+      "size_bytes": 4400,
+      "sha256": "97e9e4454f0bb6348ead7802c91beba59eac66c382adc00712fa418d38f7d237"
+    },
+    {
+      "path": "references/Sparse-SIM-master.zip",
+      "size_bytes": 10176138,
+      "sha256": "337f2944c21ec464405c51fa0a779a53caed86d6f1bc9b1259576a73a15f6f2d"
+    },
+    {
+      "path": "references/稀疏解卷积参数.jpg",
+      "size_bytes": 76679,
+      "sha256": "4d51ec4826f2b1bfd154e740693719cd75880d135d48a02a98694ff358a54fee"
+    },
+    {
+      "path": "scripts/__pycache__/run_step123_pipeline.cpython-310.pyc",
+      "size_bytes": 6120,
+      "sha256": "a6de2b962aff12d5e0140db74b487efd8bd1484f4688f67af863000dfa923aa8"
+    },
+    {
+      "path": "scripts/local_normalization.py",
+      "size_bytes": 6228,
+      "sha256": "d94dc006fe71315fae14aeab42e072f309a622c929303d00f9d3e3951bda1aba"
+    },
+    {
+      "path": "scripts/run_infer_3d.py",
+      "size_bytes": 14683,
+      "sha256": "03389abec22f3cd42540fbd3128b16de999960fa32b77154b04eab9cb9038cd3"
+    },
+    {
+      "path": "scripts/run_sparse_sim_matlab_batch.m",
+      "size_bytes": 7265,
+      "sha256": "f68fa514a48dc6607c3f835521033dae24dcf80182b959b909652ea3c801a85c"
+    },
+    {
+      "path": "scripts/run_sparse_sim_step.py",
+      "size_bytes": 3112,
+      "sha256": "945b4d3f3e821e647d6f925a4bed4026f4b243fb947a034d1ae4eab43b74a23f"
+    },
+    {
+      "path": "scripts/run_step123_pipeline.py",
+      "size_bytes": 7862,
+      "sha256": "69cf15c84612b035c8121b3ee8a06a5312832b4a4cbfe1973f383c4f9a2f855f"
+    },
+    {
+      "path": "scripts/run_step12_pipeline.py",
+      "size_bytes": 5960,
+      "sha256": "0512377c0efb766375eb5a2435a0833b43dde505494d502abe91a31dd9a226ce"
+    },
+    {
+      "path": "scripts/sparse_sim_matlab.py",
+      "size_bytes": 40532,
+      "sha256": "92fbe5b8247c962e2d2125f9bc79aa1975a13e1eb93cc6145359aa219c78930f"
+    },
+    {
+      "path": "test_data/fish7 double 3d.tif",
+      "size_bytes": 843156578,
+      "sha256": "2d3a0d407a11edf9d02caae6fe69dce4e5407acc0255b24c988580789eb4a94e"
+    }
+  ]
+}
